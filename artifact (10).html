@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دانلود بازی من | نسخه آزمایشی</title>
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Vazirmatn', sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #0f172a, #1e1b4b);
+            color: #f8fafc;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 35px 25px;
+            max-width: 420px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
+        .badge {
+            display: inline-block;
+            background: #e11d48;
+            color: #fff;
+            font-size: 12px;
+            padding: 4px 12px;
+            border-radius: 20px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .icon {
+            width: 90px;
+            height: 90px;
+            background: linear-gradient(45deg, #6366f1, #a855f7);
+            border-radius: 22px;
+            margin: 0 auto 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 8px;
+        }
+        p.desc {
+            color: #94a3b8;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        .btn-download {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: #22c55e;
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 20px;
+            border-radius: 14px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: transform 0.2s, background 0.2s;
+            box-shadow: 0 10px 20px rgba(34, 197, 94, 0.3);
+        }
+        .btn-download:hover {
+            background: #16a34a;
+            transform: translateY(-2px);
+        }
+        .info {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <span class="badge">نسخه Early Access (در حال توسعه)</span>
+        
+        <div class="icon">🎮</div>
+
+        <!-- نام بازی را اینجا بنویسید -->
+        <h1>نام بازی شما</h1>
+        
+        <!-- توضیحات کوتاه -->
+        <p class="desc">
+            این یک نسخه آزمایشی از بازی من است. مراحل بازی در حال توسعه هستند و به‌زودی کامل می‌شوند. خوشحال می‌شم نظرت رو بگی!
+        </p>
+
+        <!-- لینک دانلود مستقیم فایل APK -->
+        <a href="game.apk" class="btn-download" download>
+            <span>⬇️ دانلود مستقیم فایل APK</span>
+        </a>
+
+        <div class="info">
+            نسخه: 0.1.0 بتا | حجم: مناسب اندروید
+        </div>
+    </div>
+
+</body>
+</html>
